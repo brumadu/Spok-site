@@ -1,0 +1,44 @@
+#topo{
+  width: auto;
+  border: 15px;
+  padding: 50px;
+  background-color: green;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+
+.col-6{
+  border: 1px solid black;
+}
+
+.col{
+  border: 1px solid black;
+}
+
+.youtube{
+  width: auto;
+  border: 15px;
+  padding: 50px;
+  background-color: green;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.instagram{
+  width: auto;
+  border: 15px;
+  padding: 50px;
+  background-color: green;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.twitter{
+  width: auto;
+  border: 15px;
+  padding: 50px;
+  background-color: green;
+  margin: 20px;
+  border: 1px solid black;
+}
