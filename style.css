@@ -3,11 +3,19 @@
   margin: 0 auto;
 }
 
+.body{
+background-color: #E0FFFF;
+}
 .col-6{
   border: 1px solid black;
 }
 
 .col{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.col-12{
   border: 1px solid black;
   text-align: center;
 }
