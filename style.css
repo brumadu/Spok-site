@@ -15,6 +15,11 @@ background-color: #E0FFFF;
   text-align: center;
 }
 
+.col-4{
+  border: 1px solid black;
+  vertical-align: middle;
+}
+
 .col-12{
   border: 1px solid black;
   text-align: center;
