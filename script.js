@@ -9,7 +9,7 @@ function addVideo() {
         for (let i = 0; i < 3; i++) {
             let textVideo = response[i];
             if (textVideo.isLastVideo == true) {
-                document.getElementById("video").src = 'https://www.youtube.com/embed/' + textVideo.id;
+                document.getElementById("lastVideo").src = 'https://www.youtube.com/embed/' + textVideo.id;
             } else {
                 document.getElementById("thumb" + String(i)).src = textVideo.thumb;
                 document.getElementById("linkT" + String(i)).href = textVideo.url;
