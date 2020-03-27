@@ -7,11 +7,11 @@
 background-color: whitesmoke;
 }
 
-.col-6{
+/* .row{
   border: 1px solid black;
-}
+} */
 
-.col{
+/* .col{
   border: 1px solid black;
   text-align: center;
 }
@@ -24,7 +24,7 @@ background-color: whitesmoke;
 .col-12{
   border: 1px solid black;
   text-align: center;
-}
+} */ 
 
 #videos {
   background-color: #F7931E;
@@ -40,10 +40,11 @@ hr{
 }
 
 .title{
+  /* border: 1px solid black; */
+  margin: 0;
+  background-color: #F7931E;
 	font-size: 36px;
-    line-height: 42px;
+  line-height: normal;
 	display: block;
-	font-family:'Roboto Mono';
-	margin-top: 40px;
-	margin-bottom: 40px;
+  font-family:'comic-sans';
 }
