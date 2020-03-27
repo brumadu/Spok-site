@@ -7,29 +7,6 @@
 background-color: whitesmoke;
 }
 
-/* .row{
-  border: 1px solid black;
-} */
-
-/* .col{
-  border: 1px solid black;
-  text-align: center;
-}
-
-.col-4{
-  border: 1px solid black;
-  vertical-align: middle;
-}
-
-.col-12{
-  border: 1px solid black;
-  text-align: center;
-} */ 
-
-#videos {
-  background-color: #F7931E;
-}
-
 #teste {
   width: 85%;
 }
@@ -39,12 +16,10 @@ hr{
     border-top: 1px solid rgba(0,0,0,.1);
 }
 
-.title{
-  /* border: 1px solid black; */
+/* .title{
   margin: 0;
-  background-color: #F7931E;
 	font-size: 36px;
   line-height: normal;
 	display: block;
   font-family:'comic-sans';
-}
+} */
