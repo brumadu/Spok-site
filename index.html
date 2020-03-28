@@ -13,15 +13,18 @@
 </head>
 
 <body class="body">
-  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-    <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
+  <div class="d-flex flex-column flex-md-row align-items-center text-align-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+    <h5 class="my-0 mr-md-auto font-weight-normal">Site do Spok</h5>
   </div>
 
   <div class="container">
-    <div class="jumbotron">
+    <div class="jumbotron py-3">
+      <h3>
+        Últimos videos:
+      </h3>
       <div class="row">
         <div class="col-sm-6 embed-responsive embed-responsive-16by9">
-          <iframe id="lastVideo" class="embed-responsive-item py-1 shadow-lg" type="text/html" width="1280" height="720"
+          <iframe id="lastVideo" class="shadow-lg p-3" type="text/html" width="1280" height="720"
             src="https://www.youtube.com/embed/changevideo" frameborder="0" allowfullscreen></iframe>
         </div>
         <hr>
@@ -47,19 +50,23 @@
     <hr>
 
     <div class="container">
-      <div class="row justify-content-around no-gutters">
+      <div class="row justify-content-around">
         <div class="col-sm-5 py-1">
           <div class="card">
-            <img id="instagram" class="card-img-top img-fluid shadow-lg rounded"
-              src="http://i3.ytimg.com/vi/I8mx2ywJnWQ/hqdefault.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Último post</h5>
-              <a href="#" class="btn btn-primary">Ver no instagram</a>
+            <div class="card-header">
+              <h3>Último post:</h3>
+            </div>
+            <div class="card">
+              <img id="instagram" class="card-img-top card-img-bot img-fluid shadow-lg rounded"
+                src="http://i3.ytimg.com/vi/I8mx2ywJnWQ/hqdefault.jpg" alt="Card image cap">
+              <div class="card-body">
+                <a href="https://www.instagram.com/spoktc/" target="_blank" class="btn btn-primary">Ver no instagram</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-sm-5 py-1">
-          <a class="twitter-timeline shadow-lg" data-lang="pt" data-height="500" data-theme="dark"
+          <a class="twitter-timeline shadow-lg" data-lang="pt" data-height="500" data-theme="light"
             href="https://twitter.com/thecreepersbr?ref_src=twsrc%5Etfw">Tweets by
             thecreepersbr</a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -67,13 +74,12 @@
 
       </div>
     </div>
-
     <hr>
 
     <footer class="text-muted">
       <div class="container">
         <p class="float-right">
-          <a href="#">Back to top</a>
+          <a href="#">Volte ao topo</a>
         </p>
         <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
         <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a
