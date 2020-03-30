@@ -7,35 +7,37 @@
   --river: #3498db;
   --amethyst: #9b59b6;
   --alizarin: #e74c3c;
+  --lilac: #3A2430;
 }
 
 
+.color-btn{
+  background-color: var(--carrot) !important;
+}
 
 .header-bg{
-  background-color: var(--carrot);
+  background-color: var(--lilac);
 }
 
 .navbar{
-  background-color: var(--emerald);
+  background-color: var(--turquoise);
 }
 
-.textnav-bg{
-  background-color: beige;
+.text-bg{
+  background-color: var(--clouds);
 }
 
 .jb-bg{
-   background-color: yellowgreen; 
+   /* background-color: var(--river) !important;  */
 }
 
 .body-bg{
-  background-color: coral;
+  /* background-color: var(--carrot); */
 }
 
 .body{
-  background-color: var(--river);
+  background-color: var(--clouds);
 }
 
-#teste {
-  width: 85%;
-}
+
 
