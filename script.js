@@ -11,6 +11,7 @@ function addVideo() {
             if (textVideo.isLastVideo == true) {
                 document.getElementById("lastVideo").src = 'https://www.youtube.com/embed/' + textVideo.id;
             } else {
+                document.getElementById("title" + String(i)).innerHTML = textVideo.title;
                 document.getElementById("thumb" + String(i)).src = textVideo.thumb;
                 document.getElementById("linkT" + String(i)).href = textVideo.url;
             }

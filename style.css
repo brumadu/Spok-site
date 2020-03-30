@@ -15,7 +15,7 @@
 
 
 .color-btn{
-  background-color: var(--carrot) !important;
+  background-color: var(--green-lime) !important;
 }
 
 .jumbotron{
@@ -34,11 +34,11 @@
 }
 
 .text-bg{
-  background-color: var(--clouds);
+  background-color: transparent;
 }
 
 .jb-bg{
-   /* background-color: var(--river) !important;  */
+   background-color: whitesmoke !important; 
 }
 
 .body-bg{
@@ -46,7 +46,7 @@
 }
 
 .body{
-  background-color: whitesmoke;
+    background-image: url(imgs/patternico.png);
 }
 
 
