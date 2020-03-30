@@ -1,17 +1,38 @@
-#fundo{
-  background-color:#f39c12;
+:root{
+  --asphalt: #34495e;
+  --carrot: #e67e22;
+  --clouds: #ecf0f1;
+  --emerald: #2ecc71;
+  --turquoise: #1abc9c;
+  --river: #3498db;
+  --amethyst: #9b59b6;
+  --alizarin: #e74c3c;
 }
 
-#navbar{
-  background-color: #ecf0f1;
+
+
+.header-bg{
+  background-color: var(--carrot);
 }
 
-.jumbotron{
-   background-color: #ecf0f1;
+.navbar{
+  background-color: var(--emerald);
+}
+
+.textnav-bg{
+  background-color: beige;
+}
+
+.jb-bg{
+   background-color: yellowgreen; 
+}
+
+.body-bg{
+  background-color: coral;
 }
 
 .body{
-  background-color: #ecf0f1;
+  background-color: var(--river);
 }
 
 #teste {
